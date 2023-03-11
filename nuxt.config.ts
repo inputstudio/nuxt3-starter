@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxtjs/device', '@nuxtjs/eslint-module', '@nuxtjs/google-fonts', '@pinia/nuxt', 'nuxt-headlessui'],
+  modules: ['@nuxtjs/device', '@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui'],
   device: {
     refreshOnResize: true,
   },
@@ -31,10 +31,5 @@ export default defineNuxtConfig({
     },
     download: true,
     base64: false,
-  },
-  pinia: {
-    autoImports: [
-      'defineStore', // import { defineStore } from 'pinia'
-    ],
   },
 });

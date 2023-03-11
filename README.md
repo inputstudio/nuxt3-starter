@@ -10,7 +10,6 @@ Don't worry, if you don't need something, you can remove it. It faster to remove
 
 - [x] 👓 Sass — CSS preprocessor
 - [x] ✨ [Headless UI — UI components](https://headlessui.dev)
-- [x] 🗄️ [Pinia — State management](https://pinia.vuejs.org)
 - [x] 📱 [Device — Device detection](https://nuxt.com/modules/device)
 - [x] 🧹 Prettier — Code formatter
 - [x] 🪛 Eslint — Linter
