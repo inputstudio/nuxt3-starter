@@ -25,6 +25,9 @@ export default defineNuxtConfig({
     lintOnStart: false,
     formatter: 'visualstudio',
   },
+  headlessui: {
+    prefix: 'Headless',
+  },
   googleFonts: {
     families: {
       Inter: true,
