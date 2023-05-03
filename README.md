@@ -6,14 +6,13 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Features
 
-Don't worry, if you don't need something, you can remove it. It faster to remove than to add.
+Don't worry, if you don't need something, you can remove it.
 
-- [x] 👓 Sass — CSS preprocessor
-- [ ] 🌪️ [Tailwind CSS — CSS framework](https://tailwindcss.com)
-- [x] ✨ [Headless UI — UI components](https://headlessui.dev)
-- [x] 📱 [Device — Device detection](https://nuxt.com/modules/device)
-- [x] 🧹 Prettier with Tailwind plugin — Code formatter
-- [x] 🪛 Eslint — Linter
+- [x] 👓 Sass and [Tailwind CSS](https://tailwindcss.com)
+- [x] ✨ [Headless UI components](https://headlessui.dev)
+- [x] 📱 [Device detection module](https://nuxt.com/modules/device)
+- [x] 🇬 [Google Fonts module](https://google-fonts.nuxtjs.org/)
+- [x] 🪛 Eslint and Prettier with Tailwind plugin
 - [x] ⚙️ VS Code settings and recommended extensions
 
 ## Setup
