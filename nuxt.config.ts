@@ -12,7 +12,8 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          // additionalData: '@import "@/assets/scss/my-style.scss";', // Auto import scss files your Single-File Component (SFC)
+          // Auto import scss files your Single-File Component (SFC)
+          // additionalData: '@import "@/assets/scss/my-style.scss";',
         },
       },
     },
@@ -30,7 +31,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      Inter: true,
+      Inter: [100, 300, 400, 500, 600, 700],
     },
     download: true,
     base64: false,
