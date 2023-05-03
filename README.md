@@ -9,9 +9,10 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 Don't worry, if you don't need something, you can remove it. It faster to remove than to add.
 
 - [x] 👓 Sass — CSS preprocessor
+- [ ] 🌪️ [Tailwind CSS — CSS framework](https://tailwindcss.com)
 - [x] ✨ [Headless UI — UI components](https://headlessui.dev)
 - [x] 📱 [Device — Device detection](https://nuxt.com/modules/device)
-- [x] 🧹 Prettier — Code formatter
+- [x] 🧹 Prettier with Tailwind plugin — Code formatter
 - [x] 🪛 Eslint — Linter
 - [x] ⚙️ VS Code settings and recommended extensions
 

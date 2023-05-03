@@ -35,4 +35,10 @@ export default defineNuxtConfig({
     download: true,
     base64: false,
   },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 });
