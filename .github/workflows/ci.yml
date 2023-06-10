@@ -7,12 +7,21 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'yarn'
-      - run: yarn install --frozen-lockfile
-      - run: yarn lint
-      - run: yarn test
-      - run: yarn build
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Install Unlighthouse CLI and Puppeteer
+        run: yarn global add @unlighthouse/cli puppeteer
+      - name: Lint
+        run: yarn lint
+      - name: Build and test
+        run: |
+          yarn build
+          yarn preview &
+          yarn test

@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --ext .js,.ts,.vue --ignore-path .gitignore --fix .",
     "format": "prettier --ignore-path .gitignore --write .",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "unlighthouse-ci"
   },
   "devDependencies": {
     "@nuxtjs/device": "^3.1.0",
