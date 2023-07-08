@@ -23,7 +23,7 @@
     "nuxt": "^3.6.2",
     "nuxt-headlessui": "^1.1.4",
     "postcss": "^8.4.24",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "sass": "^1.63.6",
     "tailwindcss": "^3.3.2",
