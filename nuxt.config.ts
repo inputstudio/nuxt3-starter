@@ -18,10 +18,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxtjs/device', '@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui'],
-  device: {
-    refreshOnResize: true,
-  },
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui'],
   eslint: {
     lintOnStart: false,
     formatter: 'visualstudio',
