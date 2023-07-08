@@ -8,5 +8,5 @@ updates:
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
-      interval: 'weekly'
+      interval: 'monthly' # Runs once each month
     open-pull-requests-limit: 10 # Allow up to 10 open pull requests for npm dependencies
