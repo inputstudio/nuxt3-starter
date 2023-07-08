@@ -8,12 +8,11 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 Don't worry, if you don't need something, you can remove it.
 
-- [x] 👓 Sass and [Tailwind CSS](https://tailwindcss.com)
-- [x] ✨ [Headless UI components](https://headlessui.dev)
-- [x] 📱 [Device detection module](https://nuxt.com/modules/device)
-- [x] 🇬 [Google Fonts module](https://google-fonts.nuxtjs.org/)
-- [x] 🪛 Eslint and Prettier with Tailwind plugin
-- [x] ⚙️ VS Code settings and recommended extensions
+- 👓 [Sass](https://sass-lang.com/) and [Tailwind CSS](https://tailwindcss.com)
+- ✨ [Headless UI components](https://headlessui.dev)
+- 🇬 [Google Fonts module](https://google-fonts.nuxtjs.org/)
+- 🪛 Eslint and Prettier with [Tailwind plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) (automatically sorts classes based on recommended class order)
+- ⚙️ VS Code settings and recommended extensions
 
 ## Setup
 
