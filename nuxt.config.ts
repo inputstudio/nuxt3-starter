@@ -8,16 +8,6 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/scss/main.scss'],
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          // Auto import scss files your Single-File Component (SFC)
-          // additionalData: '@import "@/assets/scss/my-style.scss";',
-        },
-      },
-    },
-  },
   modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui'],
   eslint: {
     lintOnStart: false,
