@@ -13,6 +13,7 @@ Don't worry, if you don't need something, you can remove it.
 - 🇬 [Google Fonts module](https://google-fonts.nuxtjs.org/)
 - 🪛 Eslint and Prettier with [Tailwind plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) (automatically sorts classes based on recommended class order)
 - ⚙️ VS Code settings and recommended extensions
+- 🐋 Dockerfile optimized for production (also includes a GitHub Actions workflow to build and publish the Docker image)
 
 ## Setup
 
