@@ -18,7 +18,7 @@
     "@typescript-eslint/parser": "^6.2.1",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.46.0",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-prettier": "^4.2.1",
     "nuxt": "^3.6.2",
     "nuxt-headlessui": "^1.1.4",
