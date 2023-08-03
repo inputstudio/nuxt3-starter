@@ -17,7 +17,7 @@ jobs:
       - run: yarn test
 
   build:
-    name: Build
+    name: Build Docker image
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: [test]
     runs-on: ubuntu-latest
@@ -28,13 +28,13 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/inputstudio/nuxt3-starter
+          images: ghcr.io/inputstudio/nuxt3-starter # Modify this to your own image name
           tags: |
             type=raw,value=latest
             type=sha
       - name: Setup Buildx
         uses: docker/setup-buildx-action@v2
-      - name: Login to GitHub Container Registry
+      - name: Login to GitHub Container Registry # Can be replaced with any other registry
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
@@ -43,6 +43,6 @@ jobs:
       - name: Build image and push
         uses: docker/build-push-action@v4
         with:
-          push: true
+          push: false # Only build, set to true to push
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
