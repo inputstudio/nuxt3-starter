@@ -40,7 +40,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build image and push
+      - name: Build image
         uses: docker/build-push-action@v4
         with:
           push: false # Only build, set to true to push
