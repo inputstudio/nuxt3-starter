@@ -1,6 +1,6 @@
 name: CI
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   test:
@@ -18,7 +18,7 @@ jobs:
 
   build:
     name: Build Docker image
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' # Only build on push to main
     needs: [test]
     runs-on: ubuntu-latest
     steps:
