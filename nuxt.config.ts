@@ -8,25 +8,19 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/scss/main.scss'],
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui'],
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui', '@nuxtjs/tailwindcss'],
   eslint: {
     lintOnStart: false,
     formatter: 'visualstudio',
   },
   headlessui: {
+    // https://nuxt.com/modules/headlessui
     prefix: 'Headless',
   },
   googleFonts: {
+    // https://google-fonts.nuxtjs.org/getting-started/options
     families: {
       Inter: [100, 300, 400, 500, 600, 700],
-    },
-    download: true,
-    base64: false,
-  },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
     },
   },
 });
