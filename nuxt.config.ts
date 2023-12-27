@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       title: 'Welcome to Nuxt',
       meta: [{ name: 'description', content: 'My awesome Nuxt project' }],
       link: [{ rel: 'icon', href: '/favicon.ico' }],
+      htmlAttrs: {
+        lang: 'en',
+      },
     },
   },
   css: ['@/assets/scss/main.scss'],
