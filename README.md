@@ -17,15 +17,18 @@ Don't worry, if you don't need something, you can remove it.
 
 ## Setup
 
-Yeah, yarn is better than npm. But you can still use npm if you want.
-
 ```bash
 # Create a new Nuxt 3 project using this starter template:
-npx nuxi init -t gh:inputstudio/nuxt3-starter <project-name>
+# You can remove `--gitInit` if you don't want to initialize a Git repository.
+# You can remove `--packageManager yarn` if you want to use another package manager.
+npx nuxi init --gitInit --packageManager yarn -t gh:inputstudio/nuxt3-starter <project-name>
+```
+
+After the project is created (dependencies are already installed), you can run the following commands:
+
+```bash
 # Go to the project directory:
 cd <project-name>
-# Install the dependencies:
-yarn install
 # Start the development server:
 yarn dev
 ```
