@@ -1,3 +1,9 @@
 {
-  "recommendations": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "bradlc.vscode-tailwindcss", "sdras.vue-vscode-snippets", "Vue.volar"]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "sdras.vue-vscode-snippets",
+    "Vue.volar"
+  ]
 }
