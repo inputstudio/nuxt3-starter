@@ -15,6 +15,8 @@ Don't worry, if you don't need something, you can remove it.
 - ⚙️ VS Code settings and recommended extensions
 - 🐋 Dockerfile optimized for production (also includes a GitHub Actions workflow to build and publish the Docker image)
 
+⚠️ Prettier 3 is not yet supported by its VS Code extension, so you may need to disable it or use the Prettier 2. Nonetheless, the Prettier 3 CLI works fine. ⚠️
+
 ## Setup
 
 Make sure to have Node.js and Yarn (optional) installed. If it's not the case, you can install [volta](https://volta.sh).
