@@ -1,6 +1,6 @@
 # Nuxt 3 Starter
 
-This is an *minimal—opinionated* starter template for [Nuxt 3](https://nuxt.com). It is based on the what we use and love at [Input Studio](https://inputstudio.co).
+This is an _minimal—opinionated_ starter template for [Nuxt 3](https://nuxt.com). It is based on the what we use and love at [Input Studio](https://inputstudio.co).
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -16,6 +16,11 @@ Don't worry, if you don't need something, you can remove it.
 - 🐋 Dockerfile optimized for production (also includes a GitHub Actions workflow to build and publish the Docker image)
 
 ## Setup
+
+Make sure to have Node.js and Yarn (optional) installed. If it's not the case, you can install [volta](https://volta.sh).
+Volta will automatically install the required versions of Node.js and Yarn.
+
+Now, you can run the following command to create a new Nuxt 3 project based on this starter template:
 
 ```bash
 # Create a new Nuxt 3 project using this starter template:
