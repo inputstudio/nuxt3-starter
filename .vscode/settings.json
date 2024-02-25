@@ -5,5 +5,7 @@
     "source.fixAll": "explicit"
   },
   "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore"
+  "scss.lint.unknownAtRules": "ignore",
+  "prettier.requireConfig": true,
+  "prettier.withNodeModules": true
 }
