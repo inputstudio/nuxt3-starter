@@ -1,6 +1,6 @@
 # Nuxt 3 Starter
 
-This is an _minimal—opinionated_ starter template for [Nuxt 3](https://nuxt.com). It is based on the what we use and love at [Input Studio](https://inputstudio.co).
+This is an minimal starter template for [Nuxt 3](https://nuxt.com). It is based on the what we use and love at [Input Studio](https://inputstudio.co).
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -14,38 +14,32 @@ Don't worry, if you don't need something, you can remove it.
 - 🪛 Eslint and Prettier with [Tailwind plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) (automatically sorts classes based on recommended class order)
 - ⚙️ VS Code settings and recommended extensions
 - 🐋 Dockerfile optimized for production (also includes a GitHub Actions workflow to build and publish the Docker image)
+- 📦 Package manager agnostic (`nuxi` will ask you which package manager you want and it'll install dependencies accordingly)
 
 ⚠️ Prettier 3 is not yet supported by its VS Code extension, so you may need to disable it or use the Prettier 2. Nonetheless, the Prettier 3 CLI works fine. ⚠️
 
 ## Setup
 
-Make sure to have Node.js and Yarn (optional) installed. If it's not the case, you can install [volta](https://volta.sh).
-Volta will automatically install the required versions of Node.js and Yarn.
+Make sure to have Node.js version 20 or higher installed on your machine. If it's not the case, you can install [volta](https://volta.sh).
+Volta will automatically install the required versions of Node.js.
 
-Now, you can run the following command to create a new Nuxt 3 project based on this starter template:
-
-```bash
-# Create a new Nuxt 3 project using this starter template:
-# You can remove `--gitInit` if you don't want to initialize a Git repository.
-# You can remove `--packageManager yarn` if you want to use another package manager.
-npx nuxi init --gitInit --packageManager yarn -t gh:inputstudio/nuxt3-starter <project-name>
-```
-
-After the project is created (dependencies are already installed), you can run the following commands:
+Now, you can run the following command to create a new Nuxt 3 project based on this template:
 
 ```bash
-# Go to the project directory:
-cd <project-name>
-# Start the development server:
-yarn dev
+npx nuxi init -t gh:inputstudio/nuxt3-starter <project-name>
 ```
 
 ## Production
 
+To build the application for production, run the following command:
+
 ```bash
-# Build the application for production:
 yarn build
-# Preview production build:
+```
+
+This will generate a `dist` directory containing the production build. You can preview the production build locally by running:
+
+```bash
 yarn preview
 ```
 
