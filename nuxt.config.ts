@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     // https://nuxtseo.com/
     url: 'https://example.com', // TODO: Your site's URL
     name: 'Welcome to Nuxt', // TODO: Your site's default meta title
-    description: 'My awesome Nuxt project', // TODO: Yur site's default meta description
+    description: 'My awesome Nuxt project', // TODO: Your site's default meta description
     defaultLocale: 'en', // TODO: HTML lang attribute value
   },
 });
