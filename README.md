@@ -6,18 +6,17 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Features
 
-Don't worry, if you don't need something, you can remove it.
-
-- 👓 [Sass](https://sass-lang.com/) and [Tailwind CSS](https://tailwindcss.com)
+- 👓 [Sass](https://sass-lang.com/)
+- 🪁 [Tailwind CSS](https://tailwindcss.com)
 - ✨ [Headless UI components](https://headlessui.dev)
-- 🇬 [Google Fonts module](https://google-fonts.nuxtjs.org/)
-- 🔍 [Nuxt SEO module](https://nuxtseo.com/) (robots.txt, sitemap, link checker, etc.)
+- 🇬 [Google Fonts](https://google-fonts.nuxtjs.org/)
+- 🚀 [Nuxt Icon](https://nuxt.com/modules/icon) (add any icons from [icones.js.org](https://icones.js.org/) collection)
+- 🔍 [Nuxt SEO](https://nuxtseo.com/) (robots.txt, sitemap, link checker, etc.)
+- 💾 HTTP cache control and compression for static assets
 - 🪛 Eslint and Prettier with [Tailwind plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) (automatically sorts classes based on recommended class order)
 - ⚙️ VS Code settings and recommended extensions
-- 🐋 Dockerfile optimized for production (also includes a GitHub Actions workflow to build and publish the Docker image)
+- 🐋 Optimized Dockerfile for production (includes a GitHub Actions workflow to build and publish your Docker image)
 - 📦 Package manager agnostic (`nuxi` will ask you which package manager you want and it'll install dependencies accordingly)
-
-⚠️ Prettier 3 is not yet supported by its VS Code extension, so you may need to disable it or use the Prettier 2. Nonetheless, the Prettier 3 CLI works fine. ⚠️
 
 ## Setup
 
@@ -37,13 +36,13 @@ After that, make sure to go through the TODOs (search for `TODO` in your code ed
 To build the application for production, run the following command:
 
 ```bash
-yarn build
+npm run build
 ```
 
 This will generate a `dist` directory containing the production build. You can preview the production build locally by running:
 
 ```bash
-yarn preview
+npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
