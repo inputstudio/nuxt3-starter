@@ -5,12 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Welcome to Nuxt',
-      meta: [{ name: 'description', content: 'My awesome Nuxt project' }],
       link: [{ rel: 'icon', href: '/favicon.ico' }],
-      htmlAttrs: {
-        lang: 'en',
-      },
     },
   },
   css: ['@/assets/scss/main.scss'],
@@ -21,7 +16,7 @@ export default defineNuxtConfig({
       '/_nuxt/**': { headers: { 'cache-control': `public,max-age=${cacheTTL},s-maxage=${cacheTTL}` } },
     },
   },
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', '@nuxtjs/seo', 'nuxt-headlessui', '@nuxtjs/tailwindcss'],
   eslint: {
     lintOnStart: false,
     formatter: 'visualstudio',
@@ -35,5 +30,12 @@ export default defineNuxtConfig({
     families: {
       Inter: [100, 300, 400, 500, 600, 700],
     },
+  },
+  site: {
+    // https://nuxtseo.com/
+    url: 'https://example.com', // TODO: Your site's URL
+    name: 'Welcome to Nuxt', // TODO: Your site's default meta title
+    description: 'My awesome Nuxt project', // TODO: Yur site's default meta description
+    defaultLocale: 'en', // TODO: HTML lang attribute value
   },
 });

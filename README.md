@@ -11,6 +11,7 @@ Don't worry, if you don't need something, you can remove it.
 - 👓 [Sass](https://sass-lang.com/) and [Tailwind CSS](https://tailwindcss.com)
 - ✨ [Headless UI components](https://headlessui.dev)
 - 🇬 [Google Fonts module](https://google-fonts.nuxtjs.org/)
+- 🔍 [Nuxt SEO module](https://nuxtseo.com/) (robots.txt, sitemap, link checker, etc.)
 - 🪛 Eslint and Prettier with [Tailwind plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) (automatically sorts classes based on recommended class order)
 - ⚙️ VS Code settings and recommended extensions
 - 🐋 Dockerfile optimized for production (also includes a GitHub Actions workflow to build and publish the Docker image)
@@ -28,6 +29,8 @@ Now, you can run the following command to create a new Nuxt 3 project based on t
 ```bash
 npx nuxi init -t gh:inputstudio/nuxt3-starter <project-name>
 ```
+
+After that, make sure to go through the TODOs (search for `TODO` in your code editor) to customize the project to your needs. Enjoy ✨
 
 ## Production
 
