@@ -16,7 +16,14 @@ export default defineNuxtConfig({
       '/_nuxt/**': { headers: { 'cache-control': `public,max-age=${cacheTTL},s-maxage=${cacheTTL}` } },
     },
   },
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', '@nuxtjs/seo', 'nuxt-headlessui', '@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/seo',
+    'nuxt-headlessui',
+    'nuxt-icon',
+    '@nuxtjs/tailwindcss',
+  ],
   eslint: {
     lintOnStart: false,
     formatter: 'visualstudio',
