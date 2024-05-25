@@ -11,6 +11,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 - 🇬 [Google Fonts](https://google-fonts.nuxtjs.org/)
 - 🚀 [Nuxt Icon](https://nuxt.com/modules/icon) (add any icons from [icones.js.org](https://icones.js.org/) collection)
 - 🔍 [Nuxt SEO](https://nuxtseo.com/) (robots.txt, sitemap, link checker, etc.)
+- 🧰 [VueUse](https://vueuse.org/) (a collection of essential utilities — trust me, you'll need it at somepoint)
 - 💾 HTTP cache control and compression for static assets
 - 🪛 Eslint and Prettier with [Tailwind plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) (automatically sorts classes based on recommended class order)
 - ⚙️ VS Code settings and recommended extensions

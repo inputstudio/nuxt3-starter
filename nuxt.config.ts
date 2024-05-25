@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       '/_nuxt/**': { headers: { 'cache-control': `public,max-age=${cacheTTL},s-maxage=${cacheTTL}` } },
     },
   },
-  modules: ['@nuxtjs/google-fonts', '@nuxtjs/seo', 'nuxt-icon', '@nuxtjs/tailwindcss', '@nuxt/eslint'],
+  modules: ['@nuxtjs/google-fonts', '@nuxtjs/seo', '@nuxtjs/tailwindcss', '@nuxt/eslint', 'nuxt-icon', '@vueuse/nuxt'],
   googleFonts: {
     // https://google-fonts.nuxtjs.org/getting-started/options
     families: {
