@@ -8,7 +8,6 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 - 👓 [Sass](https://sass-lang.com/)
 - 🪁 [Tailwind CSS](https://tailwindcss.com)
-- ✨ [Headless UI components](https://headlessui.dev)
 - 🇬 [Google Fonts](https://google-fonts.nuxtjs.org/)
 - 🚀 [Nuxt Icon](https://nuxt.com/modules/icon) (add any icons from [icones.js.org](https://icones.js.org/) collection)
 - 🔍 [Nuxt SEO](https://nuxtseo.com/) (robots.txt, sitemap, link checker, etc.)
@@ -30,6 +29,16 @@ npx nuxi init -t gh:inputstudio/nuxt3-starter <project-name>
 ```
 
 After that, make sure to go through the TODOs (search for `TODO` in your code editor) to customize the project to your needs. Enjoy ✨
+
+## Which UI framework should I use?
+
+This starter template uses Tailwind CSS by default. You can add any UI framework you want on top of it. Here are some that we use and recommend (they are all fully compatible with Tailwind):
+
+- [Headless UI](https://nuxt.com/modules/headlessui)
+- [Daisy UI](https://daisyui.com/docs/install/)
+- [NuxtUI](https://ui.nuxt.com/)
+
+Feel free to use any other UI framework you like 🙂.
 
 ## Production
 

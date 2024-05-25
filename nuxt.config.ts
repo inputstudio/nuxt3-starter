@@ -16,18 +16,7 @@ export default defineNuxtConfig({
       '/_nuxt/**': { headers: { 'cache-control': `public,max-age=${cacheTTL},s-maxage=${cacheTTL}` } },
     },
   },
-  modules: [
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/seo',
-    'nuxt-headlessui',
-    'nuxt-icon',
-    '@nuxtjs/tailwindcss',
-    '@nuxt/eslint',
-  ],
-  headlessui: {
-    // https://nuxt.com/modules/headlessui
-    prefix: 'Headless',
-  },
+  modules: ['@nuxtjs/google-fonts', '@nuxtjs/seo', 'nuxt-icon', '@nuxtjs/tailwindcss', '@nuxt/eslint'],
   googleFonts: {
     // https://google-fonts.nuxtjs.org/getting-started/options
     families: {

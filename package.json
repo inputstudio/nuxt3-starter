@@ -19,7 +19,6 @@
     "@nuxtjs/tailwindcss": "^6.11.4",
     "eslint": "^8.57.0",
     "nuxt": "^3.11.2",
-    "nuxt-headlessui": "^1.1.5",
     "nuxt-icon": "^0.6.10",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
