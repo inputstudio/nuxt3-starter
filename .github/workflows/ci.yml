@@ -16,9 +16,11 @@ jobs:
       - run: npm run test
 
   build:
+    # TODO: Remove the following line to enable the build job
+    if: false
     name: Build Docker image
-    # Only build on push to the `main` branch
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # Uncomment the following line to run the job only when the push event is triggered on the main branch
+    # if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: [test]
     runs-on: ubuntu-latest
     steps:
