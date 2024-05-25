@@ -17,17 +17,13 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    '@nuxtjs/eslint-module',
     '@nuxtjs/google-fonts',
     '@nuxtjs/seo',
     'nuxt-headlessui',
     'nuxt-icon',
     '@nuxtjs/tailwindcss',
+    '@nuxt/eslint',
   ],
-  eslint: {
-    lintOnStart: false,
-    formatter: 'visualstudio',
-  },
   headlessui: {
     // https://nuxt.com/modules/headlessui
     prefix: 'Headless',
