@@ -4,7 +4,6 @@
     "build": "nuxt build",
     "dev": "nuxt dev --open --public",
     "generate": "nuxt generate",
-    "preview": "pnpm build && nuxt preview",
     "postinstall": "nuxt prepare",
     "typecheck": "nuxt typecheck",
     "lint": "eslint .",
