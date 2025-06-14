@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "antfu.iconify",
     "gruntfuggly.todo-tree",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
