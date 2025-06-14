@@ -45,7 +45,7 @@ export default defineNuxtConfig({
       },
     ],
   },
-  modules: ['@nuxtjs/seo', '@nuxt/eslint', '@nuxt/icon', '@nuxt/fonts', '@vueuse/nuxt'],
+  modules: ['@nuxtjs/seo', '@nuxt/eslint', '@nuxt/icon', '@nuxt/fonts', '@vueuse/nuxt', 'nuxt-mcp'],
   site: {
     // https://nuxtseo.com/
     url: 'https://example.com', // TODO: Your site's URL

@@ -19,6 +19,7 @@
     "@vueuse/core": "^13.3.0",
     "@vueuse/nuxt": "^13.3.0",
     "nuxt": "^3.17.5",
+    "nuxt-mcp": "^0.2.2",
     "tailwindcss": "^4.1.10"
   },
   "devDependencies": {
