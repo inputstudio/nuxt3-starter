@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  sourcemap: true,
   devtools: { enabled: true },
   app: {
     head: {
