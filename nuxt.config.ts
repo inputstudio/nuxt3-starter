@@ -5,6 +5,9 @@ const cacheTTL = 60 * 60 * 24 * 365; // 1 year – you can set this to whatever 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-06-14',
+  future: {
+    compatibilityVersion: 4,
+  },
   devtools: { enabled: true },
   app: {
     head: {
