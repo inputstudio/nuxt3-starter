@@ -37,6 +37,9 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
 
   // Ensure Prettier handles JSON and YAML files.
   "[json]": {
